@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	background-color: #e0e0e0;
+}
+.tarjeta{
+	padding: 10px;
+	width: 250px;
+	height: 360px;
+	margin: 15px;
+	box-shadow: 12px 12px 25px -15px rgba(0,0,0,0.75);
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.9);
+	float: left;
+	margin-right: 80px;
+
+}
+.img{
+	position: relative;
+	margin: 5px;
+	width: calc(100% - 10px);
+	height: calc(70% - 10px);
+}
+.img > img{
+
+	width: 150px;
+	position: absolute;
+	max-width: 95%;
+	left: calc(50% - 75px);
+}
+
+.opciones{
+	position: relative;
+	height: calc(30% - 10px);
+	margin: 5px;
+	width: calc(100% - 10px);
+}
+
+.opciones > h3{
+	width: 100%;
+	text-align: center;
+}
+button{
+
+}
+#agregar{
+	 display: inline-block;
+      position: relative;
+      line-height: 32px;
+      font-size: 0.9em;
+	width: 80px;
+	position: absolute;
+	left: calc(50% - 40px);
+	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+      background-color: #4285f4;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+}
